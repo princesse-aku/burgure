@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding:0;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 5px solid #6f6f6f;
+}
+nav h1{
+    color:#717171;
+    font-size: 30px;
+    font-family: 'Playfair Display' sans-serif;
+    margin-right: 300px;
+}
+ nav.onglets{
+    margin-top: 3px;
+    margin-left: 300px;
+ }
+nav.onglets a{
+    text-decoration:none;
+    color: #000;
+    margin-right: 10px;
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(" image/background-header.jpg");
+    background-size: cover;
+    color: white;
+    padding: 140px;
+
+    padding-bottom: 100px;
+}
+header h1{
+    font-family: 'Playfair Display', sans-serif;
+    }
+   
+header h4{
+    margin-top: -20px;
+    font-size: 20px;
+    text-align: center;
+    border-bottom: 1px solid #fff;
+}
+
+header button{
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #000;
+    border: none;
+    font-size: 20px;
+    outline: none;
+    cursor: pointer;
+}
+
+.main{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+ .main.content.card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+ }
+ footer{
+    margin-top: 40px;
+    border-top: 5px solid #6f6f6f;
+    background-color: black;
+    color: #fff;
+    padding: 30px 100px;
+ }
+ footer h1{
+    font-family: 'fairplay Display' sans-serif;
+    border-bottom: 1px solid #fff;
+    width: 20%;
+    padding-bottom: 5px;
+ }
+
+.services{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+ }
+
+ 
+ footer #contact{
+    color: rgb(115, 109, 109);
+
+ }
+
+@media screen and (max-width:680px){
+    nav.onglets{
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+    .main.main.content.card.right.img{
+        height: 200px;
+        width: 100%;
+        margin-top: 0px;
+    }
+    .main.content.card{
+        display: block;
+    }
+    footer{
+        padding: 3px;
+    }
+}
+.right{
+    margin: 30px;
+    display: flex;
+    background-color: #000;
+    color: #fff;
+    margin-left: 150px;
+    float: left;
+}
+img{
+    width: 400px;
+    height: 300px;
+    padding-left: 10px;
+}
